@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+#header {
+  height: 100vh;
+  padding: 40px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(home.jpg);
+  background-attachment: fixed;
+}
+
+.user-box {
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.user-box h1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 70px;
+}
+
+.user-box p{
+  font-size: 24px;
+
+}
+
+.scroll-btn {
+  bottom: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid;
+  padding: 10px 10px 10px;
+  border-radius: 30px;
+}
+
+.scroll-bar span {
+
+  border: 2px solid;
+  font-size: 10px;
+  border-radius: 30px;
+}
+
+/*------about----*/
+
+.about {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+
+.nav-bar{
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+
+
+.navbar {
+  background-color: #000;
+}
+
+.nav-bar .fa-bars{
+  font-size: 35px;
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+.navbar-nav{
+  float:right;
+  text-align:right;
+}
+
+.checked {
+  color: black;
+  border-radius: 16px;
+
+}
+
+.skills-bar p{
+  margin-bottom: 6px;
+  font-weight: 600;
+
+}
+
+.skills-bar h2{
+  margin-left: 130px;
+}
+
+.column{
+  float: left;
+  width: 50%;
+
+}
