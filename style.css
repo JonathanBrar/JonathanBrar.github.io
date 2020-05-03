@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -10,7 +14,7 @@ body{
   padding: 40px;
   background-size: cover;
   background-position: center;
-  background-image: url(C:/Users/Jonathan/Desktop/JonathanBrar.github.io/images/home.jpg);
+  background-image: url(C:/Users/Jonathan/Desktop/JonathanBrar.github.io/home.jpg);
   background-attachment: fixed;
 }
 
